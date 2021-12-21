@@ -3,6 +3,7 @@
     padding: 0;
     background-color: white;
     height: 100vh;
+    overflow: hidden;
 }
 
 .about-page{

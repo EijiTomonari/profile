@@ -37,7 +37,7 @@ body{
     height: 100vh;
 }
 .page-wrapper{
-    width: calc(100vw-17px);
+    width: 100vw;
 }
 
 .initial-screen{
