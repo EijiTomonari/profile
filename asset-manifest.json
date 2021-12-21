@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/GabrielTomonariDev/profile/static/css/main.776f24df.css",
+    "main.js": "/GabrielTomonariDev/profile/static/js/main.65fe5277.js",
+    "static/media/initBG.jpg": "/GabrielTomonariDev/profile/static/media/initBG.feb7828c8efc70f674e9.jpg",
+    "static/media/office.jpg": "/GabrielTomonariDev/profile/static/media/office.ec461cbd2276ce594985.jpg",
+    "static/media/gabriel.png": "/GabrielTomonariDev/profile/static/media/gabriel.c838e72f8ef00ce412a5.png",
+    "index.html": "/GabrielTomonariDev/profile/index.html",
+    "main.776f24df.css.map": "/GabrielTomonariDev/profile/static/css/main.776f24df.css.map",
+    "main.65fe5277.js.map": "/GabrielTomonariDev/profile/static/js/main.65fe5277.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.776f24df.css",
+    "static/js/main.65fe5277.js"
+  ]
+}
