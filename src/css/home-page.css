@@ -1,0 +1,101 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: black;
+    background: rgb(236, 252, 16);
+  }
+  
+  ::selection {
+    color: black;
+    background: rgb(236, 252, 16);
+  }
+::-webkit-scrollbar-track {
+    background-color: #2d2d2d;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.wrapper{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    height: 100vh;
+}
+.page-wrapper{
+    width: calc(100vw-17px);
+}
+
+.initial-screen{
+    color: white;
+    position: absolute;
+    left: 10vw;
+    top:37vh;
+}
+
+.initial-screen h1{
+    font-size: 17vh;
+    line-height: 15vh;
+    width: 80vw;
+    font-family: 'Hurricane', cursive;
+    animation: animate 3s linear forwards;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0%;
+    } 
+    100% {
+        opacity: 100%;
+    }
+}
+
+.initial-screen h2{
+    font-size: 5vh;
+    width: 80vw;
+    font-weight: 100;
+}
+
+.initial-screen-bg{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    opacity: 0.5;
+}
+.initial-screen-black-filter{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    background-color: black;
+}
+.initial-screen-wrap{
+    height: 100vh;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+@media only screen and (max-width:874px){
+    .initial-screen{
+        top: 30vh;
+
+    }
+}

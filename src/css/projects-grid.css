@@ -1,0 +1,104 @@
+.projects-grid{
+    margin: 0 auto;
+    width: 80%;
+    padding: 5vh 0 0 0;
+}
+
+.projects-grid-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(33%,1fr));
+    grid-auto-columns: minmax(33%,1fr);
+    grid-template-rows: 50% 50%;
+    grid-auto-rows: 50% 50%;
+    align-content: center;
+    justify-items: center;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.projects-grid h3{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.sort-buttons{
+    padding: 1vh 0;
+}
+
+.projects-grid button{
+    border: none;
+    margin: 5px 0.5vw;
+    padding: 1vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: grey;
+    cursor:pointer;
+    transition:ease-in-out 0.3s;
+}
+
+.projects-grid button:hover{
+    background-color: rgb(236, 252, 16);
+    color: black;
+}
+
+.active-button{
+    background-color: rgb(236, 252, 16);
+    color: black;
+}
+
+.project-item{
+    margin: 10px 15px;
+    transition:ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.project-item:hover{
+    opacity: 0.5;
+}
+
+.project-item img{
+    width: 100%;
+    border: 7px solid #161616;
+}
+
+.project-item p{
+    padding: 0.3vh 0 0.5vw 0.5vw;
+    margin: -0.5vh 0 0 0;
+    text-align: left;
+    font-weight: 300;
+    color: rgb(236, 252, 16);
+    background-color: #161616;
+    font-size: 1.5vw;
+}
+
+@media only screen and (max-width:768px){
+    .projects-grid-items {    
+        grid-template-columns: 90%;
+        grid-auto-columns: 90%;
+        
+    }
+    .project-item {
+        height: 80%;
+    }
+    .project-item p {
+        font-size: 3.5vw;
+    }
+}
+
+@media only screen and (max-width:768px) and (orientation: landscape){
+    .projects-grid-items {    
+        grid-template-columns: 60%;
+        grid-auto-columns: 60%;
+        grid-template-rows: 100%;
+        grid-auto-rows: 100%;    
+        height: 55vh;
+    }
+    .project-item img {
+        width: 100%;
+        height: 100%;
+    }
+    .project-item p {
+        font-size: 2.5vw;
+    }
+}

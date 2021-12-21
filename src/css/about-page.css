@@ -1,0 +1,59 @@
+.about-page-wrapper{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    height: 100vh;
+}
+
+.about-page{
+    margin: 0;
+    padding: 0;
+    color: black;
+    width: auto;
+}
+
+.about-page .main-h1{
+    font-size: 17vh;
+    color: grey;
+    position: absolute;
+    z-index: 2;
+}
+
+.about-page .secondary-h1{
+    font-size: 50vh;
+    line-height: 40vh;
+    width: 100vw;
+    overflow: hidden;
+    color: rgba(245, 245, 245, 0.678);
+    position: absolute;
+    z-index: 1;
+}
+
+.about-page p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    width: 40vw;
+    position: relative;
+    top: 30vh;
+    z-index: 3;
+}
+
+.about-page img{
+    position: absolute;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 3;
+}
+
+@media only screen and (max-width:768px){
+    .about-page p {
+        font-size: 2.7vh;
+        background-color: white;
+        padding: 2%;
+        top: 60vh;
+        width: 76vw;
+    }
+    .about-page .main-h1 {
+        font-size: 12vh;
+    }
+}

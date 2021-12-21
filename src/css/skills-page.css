@@ -1,0 +1,28 @@
+.skills-page{
+    padding: 0 0 0 10vw;
+
+}
+.skills-page h1{
+    font-size: 17vh;
+}
+
+.skills-group{
+    padding: 2vh 0;
+}
+
+.skills-group hr{
+    transition: ease-in-out 0.5s;
+    margin: 1vh 0;
+    height: 1px;
+    border: none;
+}
+
+.skills-group ul{
+    list-style-position: inside;
+}
+
+@media only screen and (max-width:768px) and (orientation: landscape){
+    .skills-group {
+        font-size: 1%;
+    }
+}
